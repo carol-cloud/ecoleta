@@ -31,6 +31,14 @@
         grid-template-columns: 1fr;
     }
 
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
     #page-home main h1 {
         font-size: 30px;
     }
